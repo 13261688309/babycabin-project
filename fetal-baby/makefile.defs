@@ -1,0 +1,2 @@
+# Keep floating-point telemetry enabled in CubeIDE-generated Makefiles.
+LIBS += -u _printf_float

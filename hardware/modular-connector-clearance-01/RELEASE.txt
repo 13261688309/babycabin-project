@@ -1,0 +1,45 @@
+连接器间距优化后的当前离线 PCB 设计
+版本：modular-connector-clearance-01
+日期：2026-10-22
+用途：无人桌面演示原型。未批准制板或上电，不用于婴儿或载人。
+
+本版内容
+- 采用 connector-clearance-candidate-06 的布局和布线，经过独立复制、重新铺铜、保存与原生读取检查。
+- 四只电阻 R1605、R1613、R1615、R1624 调整位置，改善 PAN/TILT 接插件周边预留。
+- 调整七段原有焊盘端走线；三段旧走线替换为十四段局部走线，新增两个过孔。
+- 原有连接器针序、160 个器件身份、阻值、封装、三个默认 DNP 状态均不变。
+- 四个移动器件至保守 VH 占位区的最小平面间距 0.675 mm，至其他器件 courtyard 的最小间距 0.400 mm。
+
+本轮独立验证
+- KiCad 10.0.6 冷加载后重新铺铜和保存，完整 DRC：0 违规、0 未连接、0 原理图一致性问题，无忽略检查。
+- 七页原理图新运行 ERC：0 违规。仍忽略 single_global_label、four_way_junction、simulation_model_issue、footprint_filter 四类；未声称所有 ERC 类别均开启。
+- 从配套原理图重新导出的网表：160 个器件、540 个引脚的网络/功能/引脚类型与约束一致。
+- 原生 PCB 对照现有 board-instance-bom.csv、complete-mpn-pin-map.csv：160 个器件、540 个引脚全部匹配。
+- 原 BOM 保持 157 件默认装配、56 个设计订货型号；R1411、R1701、R1721 保持不装。
+- 全板 109 个命名网络保持原连通关系：96 个功能网络、13 个独立 NC。
+- 全板走线 2809 段、过孔 425 个，电源平面和过孔隔离检查通过。
+- 43 项连接器及发布约束测试通过，无失败、错误或跳过。
+
+文件与证据
+- 本目录 modular-watchdog.kicad_pro / .kicad_sch / .kicad_pcb 是配套可编辑工程。
+- 本目录 drc-report.json、erc-report.json、netlist.xml 是此次新生成的原生检查结果。
+- 发布记录和测试日志：build/verification/connector-clearance-release-20261022-01/。
+- 现有 BOM 继续使用 build/hardware/modular-drv-bom-01/；旧 native-bom-audit.json 保留历史板号，不改写。
+- 本版原生 BOM 对应证据：上述验证目录中的 native-release-bom-audit.stdout.txt 与 checks.json。
+- 改动前后几何对照图：build/hardware/connector-clearance-candidate-06/clearance-comparison.png。
+- 以上 build/ 路径均相对于项目根目录；当前实际选用文件以 handoff/current-project.json 为准。
+
+PCB SHA-256
+bbd0570512348722d21086b6a6aefc780b1f0baeb33728f314ceee199d03db18
+
+没有改变的内容
+- 旧 PCB 工程、旧证据和旧说明均保留，没有覆盖旧板。
+- 当前 H743 固件及冻结的软件 ZIP 未修改，未因此次发布而烧录任何设备。
+- 没有打开串口、ST-Link 或摄像头，没有接线、上电、采购、报价确认或制板。
+- 新增采购上限仍为已取消状态，但采购和制板仍未授权。
+
+仍未完成
+二维间距和 DRC 不等于实物装配、插拔空间、线缆弯曲空间、电气/温升/载流或保护动作合格。
+实际插头、驱动板、电源与负载仍需核定；语音到 H743 的接口测量和新链路联调待操作者方便时进行。
+六项项目验收要求全部保留：接口与供电、完整信息链、物理保护、执行器及桌面演示、实板电气/温升/装配/制造审核、完整到手费用。
+此版本是当前离线设计基线，不是生产放行或项目完成证明。

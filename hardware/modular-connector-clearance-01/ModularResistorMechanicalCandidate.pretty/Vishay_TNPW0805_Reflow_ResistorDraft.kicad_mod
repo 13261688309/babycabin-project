@@ -1,0 +1,177 @@
+(footprint "Vishay_TNPW0805_Reflow_ResistorDraft"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "RESISTOR PACKAGE DRAFT; THERMAL/PROCESS/PROCUREMENT NOT QUALIFIED. 28950 page 1 IPC-based reflow; TNPW0805")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "5e10860a-b85a-4426-8e27-a8a28dcabaa8")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Value" "Vishay_TNPW0805_Reflow_ResistorDraft"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c977008f-e52a-45e6-8ac9-f2bf771d3697")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/doc?28950="
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2622ecd-4870-4252-a3eb-947a513a31c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63f7dc48-47c3-4edd-8afa-cd08e80b8145")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.299999 -2.55)
+		(end -0.6 -2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16dc992b-78ec-4138-869a-ca143624d2d4")
+	)
+	(fp_line
+		(start -1.65 -0.975)
+		(end 1.65 -0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "db3e4336-3ff1-42ff-bb59-3ac838c52cbe")
+	)
+	(fp_line
+		(start -1.65 0.975)
+		(end -1.65 -0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "db6ee00a-3adc-416d-b2b6-28edfea35620")
+	)
+	(fp_line
+		(start 1.65 -0.975)
+		(end 1.65 0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5dc8463-7949-444b-8972-256fc1194a4d")
+	)
+	(fp_line
+		(start 1.65 0.975)
+		(end -1.65 0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "600246e6-57ce-473c-9f60-dd0343323aa5")
+	)
+	(fp_line
+		(start -1.05 -0.7)
+		(end 1.05 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b7c4321b-5549-4622-b904-0f2ec6fe1fab")
+	)
+	(fp_line
+		(start -1.05 0.7)
+		(end -1.05 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "de3f2bdd-9853-4b6c-8d72-ab69d4a2998a")
+	)
+	(fp_line
+		(start 1.05 -0.7)
+		(end 1.05 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e1e06d27-068f-4ebc-be66-4561e505d771")
+	)
+	(fp_line
+		(start 1.05 0.7)
+		(end -1.05 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a787fc03-2934-43fa-9a2d-ac2eaf209729")
+	)
+	(pad "" smd rect
+		(at -0.95 0)
+		(size 0.9 1.45)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "80135bb8-32d8-4269-8ba9-9385ea6cca4e")
+	)
+	(pad "" smd rect
+		(at 0.95 0)
+		(size 0.9 1.45)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "32abe37c-9258-4589-93b0-f341a4fa503b")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 0.9 1.45)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(thermal_bridge_angle 45)
+		(uuid "1e0eb29a-25b5-46cb-bab9-e65363fc5b1e")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 0.9 1.45)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(thermal_bridge_angle 45)
+		(uuid "91fc0f58-ab0c-4d6d-a7f4-246c30dcaca1")
+	)
+	(embedded_fonts no)
+)

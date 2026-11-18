@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-22T22:31:01",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/be8dab1d-9e98-58a0-b3c6-858aed2528f6",
+            "violations": []
+        },
+        {
+            "path": "/Core/",
+            "uuid_path": "/be8dab1d-9e98-58a0-b3c6-858aed2528f6/4d859ccf-1350-555e-8144-8aa6305a6216",
+            "violations": []
+        },
+        {
+            "path": "/Branch/",
+            "uuid_path": "/be8dab1d-9e98-58a0-b3c6-858aed2528f6/078098ea-0b7f-5c23-8406-e8a11e96c6e3",
+            "violations": []
+        },
+        {
+            "path": "/Signals/",
+            "uuid_path": "/be8dab1d-9e98-58a0-b3c6-858aed2528f6/09ef7e53-1b77-5c8f-a118-3d7e36430423",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/be8dab1d-9e98-58a0-b3c6-858aed2528f6/5fdc402b-5b3a-5509-be1d-9508b42f6d46",
+            "violations": []
+        },
+        {
+            "path": "/Discharge/",
+            "uuid_path": "/be8dab1d-9e98-58a0-b3c6-858aed2528f6/14f6fcc3-a20f-5c9f-a936-10f302059410",
+            "violations": []
+        },
+        {
+            "path": "/Watchdog/",
+            "uuid_path": "/be8dab1d-9e98-58a0-b3c6-858aed2528f6/bbb35e33-585d-5e0d-9e3b-84bdc44e981e",
+            "violations": []
+        }
+    ],
+    "source": "modular-watchdog.kicad_sch"
+}

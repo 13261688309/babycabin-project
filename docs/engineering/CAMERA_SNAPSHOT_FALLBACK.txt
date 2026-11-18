@@ -1,0 +1,87 @@
+Camera single-JPEG transport candidate
+
+Selected camera payload: build/handoff/observer-portable-20261026-02/observer
+ZIP: build/handoff/observer-portable-20261026-02/observer-CPU-existing-model.zip
+Pointer and hashes: handoff/camera-snapshot-candidate.json
+
+Current result
+The operator connected the camera; COM14 replied AI_V1.5.2 and STA IP
+192.168.43.24. The new /capture endpoint delivered three model frames, then
+a 120-second direct-snapshot session delivered 211 inference frames with
+zero reconnects, zero overage drops, and maximum frame age 733ms.
+Evidence: build/bench/camera-snapshot-live-20261026-01/check.json
+One record confirmed Neutral; scene identity was not independently verified.
+Classification accuracy and long-duration stability are NOT qualified.
+The main launcher now selects this package and http-snapshot, retaining the
+old model and old transport options. Start-Camera-Demo.cmd opens no MCU port.
+No camera firmware, camera configuration or MCU firmware was changed.
+
+What changed
+- Real-time MJPEG, the existing model, vision metadata uplink, native USB,
+  voice/STOP telemetry and environmental telemetry remain available.
+- --snapshot-fallback-url explicitly permits a switch from a failed MJPEG
+  connection to repeated same-camera JPEG requests. Default: disabled.
+- The old capture worker closes before the fallback opens. There is one
+  camera reader, not simultaneous stream and capture clients.
+- --network-reader http-snapshot can test a JPEG endpoint directly without
+  repeating the known failing long-stream test.
+- Each JPEG is bounded to 2MB, checked and decoded. Timeouts, partial JPEGs,
+  invalid replies and exhausted retry budgets cannot become valid frames.
+- Request-start time is included in frame age. It is not a sensor exposure
+  timestamp. Existing 1500ms observation/uplink freshness limits are unchanged.
+- The dashboard identifies the single-JPEG fallback. Source failure still
+  expires the picture and classification; independent MCU data stays visible.
+- JPEGs stay in RAM. No camera settings, firmware, Wi-Fi or model weights change.
+
+Offline evidence
+build/verification/camera-snapshot-fallback-20261026-01/workspace-release/check.json
+build/verification/camera-snapshot-fallback-20261026-01/packaged-release/check.json
+Both: 129 tests, no skips/failures/errors. These counts overlap, not 258 unique tests.
+Tests include the real existing model on synthetic localhost images after a
+simulated HTTP stream failure, and mocked independent MCU telemetry.
+The packaged entry point verified all 56 payload files and passed its existing
+network-guarded model self-test. No physical camera or MCU was used in this work.
+Browser desktop/mobile checks and screenshots use a synthetic fixture only:
+build/verification/camera-snapshot-fallback-20261026-01/browser/
+
+Remaining physical scope
+Do not repeat the completed endpoint and two-minute checks above. The user
+subsequently connected H743 and voice USB and confirmed the known harness.
+The new path then delivered 264 inferred frames, 254 fresh MCU acknowledgments,
+179 healthy DHT11 reports and two returned visual_cry reminders over 180 seconds,
+with zero video reconnects and maximum frame age 500ms. The scene reportedly
+contained a face or baby photo/screen; class ground truth was not verified.
+Evidence: output/demo/20261026-122701-251101/integration-check.json
+No fresh voice STOP count delta occurred; the user declined repeating that
+baseline. The actual actuator/protection chain remains pending.
+Do not open another camera client. No Wi-Fi setup, reset, voice command or
+temperature baseline is needed for the next new-path integration session.
+
+From the candidate directory, using the existing trusted Python environment:
+python observer.py run --source http://CONFIRMED_CAMERA_IP/capture --network-reader http-snapshot --max-frames 3 --max-seconds 20 --retries 0
+
+The direct endpoint now works. Actual MJPEG-to-snapshot failover remains
+untested; this is a separate optional scenario, not a request to run it now:
+python observer.py run --source http://CONFIRMED_CAMERA_IP:81/stream --network-reader http-mjpeg --snapshot-fallback-url http://CONFIRMED_CAMERA_IP/capture --max-seconds 120 --retries 1
+
+These examples open no serial port. Native USB observation uplink still needs
+its existing identity, wiring and explicit-write options; do not bypass them.
+The main launcher accepts --network-reader for a per-run transport override.
+Its previous PC09 configuration is preserved in demo-config-before-snapshot.json.
+
+Limits and remaining project work
+- /capture was observed on actual AI_V1.5.2 for the bounded session above;
+  that does not prove indefinite availability or recovery from all outages.
+- Both endpoints may fail if the camera or network itself stops responding.
+  This feature does not establish or repair that hardware/network root cause.
+- No claim of camera stability, recognition accuracy or full-system acceptance.
+- Motor, pan/tilt and physical STOP/ARM/PG/watchdog acceptance remain required.
+- No actuator power, procurement, fabrication or new camera flash is authorized.
+- Voice TX1 must be removed before either the voice board or MCU loses power.
+
+Reference-source review
+Camera_Display AI_V1.5.1 deletes its event group while callbacks remain
+registered. A different local AI_Human_Face_Recognition AI_V1.5.1 source keeps
+the group and guards callback access. Neither source is proven to match the
+actual AI_V1.5.2 binary. Therefore this difference is NOT recorded as the live
+camera fault, and no reference-source patch was applied or flashed.

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "source": "命令词播报词协议列表V3_中文.xlsx",
+  "sourceSha256": "307720a2ea1f3cbd2269f5b54057e6bb8ba1da4ee9f88dda7159b9f40f31f542",
+  "sheet": "命令词预处理",
+  "firstNewRow": 116,
+  "firstNewSemanticLabel": 111,
+  "commands": [
+    {
+      "id": 161,
+      "phrase": "观察位一",
+      "reply": "收到观察位一请求",
+      "action": "preset_apply",
+      "slot": "1"
+    },
+    {
+      "id": 162,
+      "phrase": "观察位二",
+      "reply": "收到观察位二请求",
+      "action": "preset_apply",
+      "slot": "2"
+    },
+    {
+      "id": 163,
+      "phrase": "观察位三",
+      "reply": "收到观察位三请求",
+      "action": "preset_apply",
+      "slot": "3"
+    },
+    {
+      "id": 164,
+      "phrase": "开始跟踪",
+      "reply": "收到跟踪请求",
+      "action": "auto",
+      "slot": null
+    },
+    {
+      "id": 165,
+      "phrase": "开始巡航",
+      "reply": "收到巡航请求",
+      "action": "patrol",
+      "slot": null
+    },
+    {
+      "id": 166,
+      "phrase": "暂停巡航",
+      "reply": "收到暂停请求",
+      "action": "patrol_pause",
+      "slot": null
+    },
+    {
+      "id": 167,
+      "phrase": "继续巡航",
+      "reply": "收到继续请求",
+      "action": "patrol_resume",
+      "slot": null
+    },
+    {
+      "id": 168,
+      "phrase": "云台回中",
+      "reply": "收到回中请求",
+      "action": "center",
+      "slot": null
+    }
+  ],
+  "nativeWakeAndStopPreserved": true,
+  "voiceLearningCannotAllocateNewIds": true,
+  "platformImported": false,
+  "voiceFirmwareGenerated": false,
+  "voiceFirmwareFlashed": false,
+  "hardwareValidated": false
+}

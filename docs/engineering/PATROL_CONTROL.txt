@@ -1,0 +1,36 @@
+预置位巡航接口说明（桌面本机控制页）
+
+范围
+本次只更新电脑端。现有 GC03 协议承载限位角度目标，不新增主控协议、不烧录固件。
+板上版本以 next-firmware.json 为准；GB01 专用舵机测试入口不能与 GC03 控制页混用。
+默认入口为无串口输出的预演；实物运动仍需要匹配固件和已验收的供电/保护接线。
+
+本地 POST /api/control
+仍要求同源 Origin、127.0.0.1 Host、JSON Content-Type 和 X-Control-Token。
+client 为当前页面标识，generation 取最近一次状态响应；暂停/继续只能由当前所有者操作。
+
+启动字段（必须恰好包含这些字段）
+{"action":"patrol","client":"本页面标识","generation":0,"slots":["1","2"],"dwell":500,"pauseOnFace":false}
+slots：2至3个不同的已保存预置编号，按顺序运行；启动时复制预置角度，不跟随后续文件变化。
+dwell：500、1000或1500毫秒。
+pauseOnFace：布尔值。true时需要新鲜且无人脸的相机画面。
+启动前计算各段最大轴角差 / 10度每秒，再加每站停留；超过10000毫秒则拒绝，不放宽限位。
+
+暂停与继续字段
+{"action":"patrol_pause","client":"同一页面标识","generation":1}
+{"action":"patrol_resume","client":"同一页面标识","generation":2}
+暂停冻结软件目标进度，不切断动力，也不延长原10秒截止时间。
+暂停仍要求原所有者维持页面心跳；没有心跳、到期、语音或保护接管均会退出。
+启用人脸暂停时，恢复还要求新鲜且无人脸的画面；不会因人脸自行消失而自动恢复。
+显式停止继续使用现有 action=stop（包括原有全局优先语义），停止后的旧巡航不能恢复。
+
+状态
+/api/state 的 mode=patrol；patrol 包含 state、paused、pauseReason、phase、index、points、
+plannedMs、routeElapsedMs、routeRemainingMs、deadlineRemainingMs、reason 和 target。
+phase=moving/dwell 是软件目标轨迹状态，不是机械位置传感器反馈。
+generation 在启动、暂停、继续及人脸自动暂停时变化，旧请求应被拒绝。
+API 不延长固件会话期限、不另起自动重试，也不绕过主控保护或600毫秒失联停止。
+
+鸿蒙边界
+未在本轮更改鸿蒙App、配对方式或远程控制白名单。上面的本地桌面端点不是远程手机接口。
+需要远程巡航时，由鸿蒙对话按既有配对、授权、所有权和断联策略适配，不直接放开本机接口。

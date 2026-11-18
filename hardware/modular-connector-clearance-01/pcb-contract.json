@@ -1,0 +1,6022 @@
+[
+  {
+    "reference": "C1401",
+    "design_value": "1uF_ARM_FILTER_PROVISIONAL",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_1206_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/42d90811-750e-508b-8b8b-2e4132a39169",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/ARM_RC",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1402",
+    "design_value": "220nF_POR_DELAY_PROVISIONAL",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0805_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/f8bd48a9-00e7-535d-a892-28c1e8a1157d",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/POR_CT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1403",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/d83f74ae-993b-50e8-b89c-e794f780008f",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1404",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/4b7d1ded-86e7-52c1-86bc-13d98dcc3dfc",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1405",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/2b217264-eb99-554c-a72d-4fdcff4bd44b",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1406",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/05a0223e-9b3c-5d18-9de1-325cc9ce9ea4",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1407",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/c586f530-285a-56f5-a9a8-5af4c326c419",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1408",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/22eb7a11-9658-5e17-8021-8156be849d44",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1501",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/023245e0-7ca6-5295-bf57-9e9f48084f76",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1502",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/831524f7-8aad-5eb4-8cf7-e9399dae39af",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1503",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/65c8ca16-c682-583a-bf59-9b9650977a65",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1504",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/55578942-073e-548c-b5a7-de68731a7de7",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1505",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/6e63f970-1b16-5b89-9197-1fca2e3392b8",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1506",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/651d3ecd-bea4-52f8-b326-dd2906bfce45",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1507",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/4cdc03a0-23fd-589e-818a-6e17ed5bc0b9",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1508",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/275a1180-d811-56b9-8b89-f14fe0545696",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1509",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/ee2b28a4-4a13-58c9-b0af-4af9e449d2a9",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1601",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/4800bf7b-a7b8-5a07-afa7-f319823289a5",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1602",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/9a195798-2831-5e59-970a-ee5c09e731ae",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1603",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/dd0a5b95-cbda-5225-b683-d9c90dbefb38",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1604",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/2ac5d222-7c5e-5de8-83fc-1a539603ba6d",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1605",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/57ed473a-70d2-5130-86ae-8fdf6650ac99",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1606",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/06f97db2-75d2-5d0e-a018-8fc7a56364c5",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1611",
+    "design_value": "4.7uF_EFFECTIVE_GE_2p2uF_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_1206_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/4c1a9666-fcfa-5e80-adf5-feb7295bfc5f",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1612",
+    "design_value": "4.7uF_EFFECTIVE_GE_2p2uF_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_1206_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/0f279e8b-29c6-5161-91a9-0afeb5953e91",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1613",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/483ef1cf-4e31-5940-bd8e-0f9eb30658ce",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1614",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/336f3568-cfaa-5d78-b557-76f75c257a3f",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1615",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/406d357a-3b93-5957-b7ce-a49eb0b7f93d",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1616",
+    "design_value": "100nF_LOCAL_DECOUPLING",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/f736a259-d4a4-5b53-978a-306653e627b1",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1701",
+    "design_value": "4.7uF_50V_EFFECTIVE_GE_1uF_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_1206_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/308268ff-f6b2-5dfd-86bc-8a92f745b709",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VIN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1702",
+    "design_value": "100uF_16V_20pct_ESR_RIPPLE_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:Panasonic_EEUFR1C101_D5_P2_StraightLead_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/bc0d7c1a-3595-5a26-b31e-b4cd68197a6d",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1703",
+    "design_value": "3.3nF_50V_C0G_STARTUP_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0805_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/c6b63015-6721-5a5f-ab32-719a40aef180",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/M_DVDT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1721",
+    "design_value": "4.7uF_50V_EFFECTIVE_GE_1uF_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_1206_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/94d7f0c3-81af-5b0b-b073-e81d9800302b",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VIN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1722",
+    "design_value": "100uF_16V_20pct_ESR_RIPPLE_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:Panasonic_EEUFR1C101_D5_P2_StraightLead_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/f340f0cb-7d94-597a-8016-deb3587cb569",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1723",
+    "design_value": "3.3nF_50V_C0G_STARTUP_UNQUALIFIED",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0805_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/b55627e3-5c56-5c13-b485-a93cb3335975",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/S_DVDT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1901",
+    "design_value": "100nF_LOCAL_VDD1",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/0141d2dc-2aa3-52ba-a3e4-001c8139e188",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1902",
+    "design_value": "100nF_LOCAL_VDD2",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/5b1d0eca-24ea-5cce-bcd8-3daffb89d1e2",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "C1903",
+    "design_value": "100nF_LOCAL_BUFFER",
+    "footprint": "ModularCapacitorMechanicalCandidate:TDK_0603_Reflow_CapacitorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/d5c1f518-3051-5458-93b8-eaecfeb7b3d1",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "D1701",
+    "design_value": "SS14-E3/61T_NEGATIVE_SPIKE_CANDIDATE",
+    "footprint": "ModularDiscreteMechanicalCandidate:Vishay_SS14_SMA_K1_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/e4f4cf22-ad4b-59b0-b6e8-2c9cdfac1106",
+    "schematic_fields": {
+      "Datasheet": "https://www.vishay.com/docs/88746/ss12.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "K_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "A_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "D1721",
+    "design_value": "SS14-E3/61T_NEGATIVE_SPIKE_CANDIDATE",
+    "footprint": "ModularDiscreteMechanicalCandidate:Vishay_SS14_SMA_K1_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/e8d979be-3508-5593-975d-b5d3ad2d513f",
+    "schematic_fields": {
+      "Datasheet": "https://www.vishay.com/docs/88746/ss12.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "K_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "A_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "D201",
+    "design_value": "BAV199,215",
+    "footprint": "ModularDiscreteMechanicalCandidate:Nexperia_BAV199_SOT23_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/6c7f4ed3-2982-5e2c-9948-541bff9ee68b",
+    "schematic_fields": {
+      "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VIN",
+        "intentional_nc": false,
+        "function": "A1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K2_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/M_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K1_A2_3",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "D202",
+    "design_value": "BAV199,215",
+    "footprint": "ModularDiscreteMechanicalCandidate:Nexperia_BAV199_SOT23_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/fd813821-964f-58fa-8cbe-df12690cdeeb",
+    "schematic_fields": {
+      "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/M_BIAS_ANODE",
+        "intentional_nc": false,
+        "function": "A1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K2_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/M_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K1_A2_3",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "D203",
+    "design_value": "BAV199,215",
+    "footprint": "ModularDiscreteMechanicalCandidate:Nexperia_BAV199_SOT23_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/2a7081a1-11b4-56a3-916e-d82ee25079bf",
+    "schematic_fields": {
+      "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VIN",
+        "intentional_nc": false,
+        "function": "A1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K2_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/S_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K1_A2_3",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "D204",
+    "design_value": "BAV199,215",
+    "footprint": "ModularDiscreteMechanicalCandidate:Nexperia_BAV199_SOT23_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/d233e8cb-0e74-5069-bc43-467c7c9d1658",
+    "schematic_fields": {
+      "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/S_BIAS_ANODE",
+        "intentional_nc": false,
+        "function": "A1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K2_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/S_VIN_ISO",
+        "intentional_nc": false,
+        "function": "K1_A2_3",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1401",
+    "design_value": "LOGIC_3V3_INPUT_ONLY",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/5eaa97c6-7d7c-5fa5-b776-646fffb9a89a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VLOGIC_3V3_1",
+        "pin_type": "power_out"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_out"
+      }
+    ]
+  },
+  {
+    "reference": "J1402",
+    "design_value": "H743_LOGICAL_PF0_PF5_NOT_CORE_HEADER",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/cf47bef1-552f-5970-9bb6-fc257f76374e",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Core/STOP_OK",
+        "intentional_nc": false,
+        "function": "STOP_OK_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Core/HW_ARMED",
+        "intentional_nc": false,
+        "function": "HW_ARMED_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "ACT_EN_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "MCU_READY",
+        "intentional_nc": false,
+        "function": "MCU_READY_5",
+        "pin_type": "output"
+      },
+      {
+        "number": "6",
+        "net": "POWER_GOOD",
+        "intentional_nc": false,
+        "function": "POWER_GOOD_6",
+        "pin_type": "passive"
+      },
+      {
+        "number": "7",
+        "net": "MCU_HEARTBEAT",
+        "intentional_nc": false,
+        "function": "MCU_HEARTBEAT_7",
+        "pin_type": "output"
+      }
+    ]
+  },
+  {
+    "reference": "J1403",
+    "design_value": "NC_STOP_AND_NO_ARM_CONTACTS",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/5324c50b-fd57-5853-b1ba-d99e77a64fe9",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VLOGIC_3V3_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Core/STOP_OK",
+        "intentional_nc": false,
+        "function": "STOP_OK_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VLOGIC_3V3_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "/Core/ARM_RAW",
+        "intentional_nc": false,
+        "function": "ARM_RAW_4",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1404",
+    "design_value": "WATCHDOG_LOGIC_TEST_ONLY_NO_EXTERNAL_PRODUCER",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/ae6fa593-d6ad-5912-879c-82ee71d6fc7a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VLOGIC_3V3_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "MCU_HEARTBEAT",
+        "intentional_nc": false,
+        "function": "MCU_HEARTBEAT_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "WD_OK_4",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1406",
+    "design_value": "LOGIC_TEST_ONLY",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/221cef37-7ccf-58ca-a70e-5f3f1d13024e",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "POR_N",
+        "intentional_nc": false,
+        "function": "POR_N_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Core/ARM_CLK",
+        "intentional_nc": false,
+        "function": "ARM_CLK_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "/Core/MASTER_CLEAR_N",
+        "intentional_nc": false,
+        "function": "MASTER_CLEAR_N_4",
+        "pin_type": "passive"
+      },
+      {
+        "number": "5",
+        "net": "/Core/GATE_REQUEST",
+        "intentional_nc": false,
+        "function": "GATE_REQUEST_5",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1501",
+    "design_value": "VOLTAGE_SENSE_ONLY_POSITIVE_ENVELOPE_REQUIRED",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/d5af6db5-e571-576f-b766-02bb8d23b700",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "M_VIN",
+        "intentional_nc": false,
+        "function": "M_VIN_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "S_VIN",
+        "intentional_nc": false,
+        "function": "S_VIN_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "M_VOUT_4",
+        "pin_type": "passive"
+      },
+      {
+        "number": "5",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "S_VOUT_5",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1502",
+    "design_value": "POWER_STAGE_LOGIC_TEST_ONLY",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/74573a7e-bd99-5e9a-8eed-048f0084e52a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "POWER_EN",
+        "intentional_nc": false,
+        "function": "POWER_EN_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "SIGNAL_EN_PRE",
+        "intentional_nc": false,
+        "function": "SIGNAL_EN_PRE_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/M_PG_VALID",
+        "intentional_nc": false,
+        "function": "M_PG_VALID_4",
+        "pin_type": "passive"
+      },
+      {
+        "number": "5",
+        "net": "/Branch/S_PG_VALID",
+        "intentional_nc": false,
+        "function": "S_PG_VALID_5",
+        "pin_type": "passive"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/POWER_FAULT",
+        "intentional_nc": false,
+        "function": "POWER_FAULT_6",
+        "pin_type": "passive"
+      },
+      {
+        "number": "7",
+        "net": "/Branch/START_EXPIRED",
+        "intentional_nc": false,
+        "function": "START_EXPIRED_7",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1602",
+    "design_value": "MCU_PA4_PA5_PB10_PA6_PA7",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/ebe37a4f-6ef7-5052-835c-e93e7f365cd7",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Signals/IN1_MCU",
+        "intentional_nc": false,
+        "function": "IN1_MCU_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Signals/IN2_MCU",
+        "intentional_nc": false,
+        "function": "IN2_MCU_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "/Signals/PWM_MCU",
+        "intentional_nc": false,
+        "function": "PWM_MCU_4",
+        "pin_type": "passive"
+      },
+      {
+        "number": "5",
+        "net": "/Signals/PAN_MCU",
+        "intentional_nc": false,
+        "function": "PAN_MCU_5",
+        "pin_type": "passive"
+      },
+      {
+        "number": "6",
+        "net": "/Signals/TILT_MCU",
+        "intentional_nc": false,
+        "function": "TILT_MCU_6",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1603",
+    "design_value": "TB6612_LOGICAL_NOT_MODULE_PINOUT",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_VH_B7P-VH_1x07_P3.96mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/fde98ed4-da76-557b-a0c3-c1273509c1ba",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "M_VOUT_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "M_IO_3V3_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "/Signals/IN1_OUT",
+        "intentional_nc": false,
+        "function": "IN1_OUT_4",
+        "pin_type": "passive"
+      },
+      {
+        "number": "5",
+        "net": "/Signals/IN2_OUT",
+        "intentional_nc": false,
+        "function": "IN2_OUT_5",
+        "pin_type": "passive"
+      },
+      {
+        "number": "6",
+        "net": "/Signals/PWM_OUT",
+        "intentional_nc": false,
+        "function": "PWM_OUT_6",
+        "pin_type": "passive"
+      },
+      {
+        "number": "7",
+        "net": "/Signals/STBY_OUT",
+        "intentional_nc": false,
+        "function": "STBY_OUT_7",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1604",
+    "design_value": "PAN_SERVO_ORDER_UNVERIFIED",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_VH_B3P-VH_1x03_P3.96mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/35dc3569-9ae7-5a28-be81-ed16acdcbf7a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "S_VOUT_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Signals/PAN_OUT",
+        "intentional_nc": false,
+        "function": "PAN_OUT_3",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1605",
+    "design_value": "TILT_SERVO_ORDER_UNVERIFIED",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_VH_B3P-VH_1x03_P3.96mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/31619dae-f6f5-5a4f-9cc9-01aea6a8ff2b",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "S_VOUT_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Signals/TILT_OUT",
+        "intentional_nc": false,
+        "function": "TILT_OUT_3",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1701",
+    "design_value": "EXTERNAL_FUSED_LOW_VOLTAGE_INPUTS",
+    "footprint": "ModularConnectorMechanicalCandidate:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/8c2443f7-c9b9-579f-ad78-e387e36916b7",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VIN",
+        "intentional_nc": false,
+        "function": "M_VIN_1",
+        "pin_type": "power_out"
+      },
+      {
+        "number": "2",
+        "net": "S_VIN",
+        "intentional_nc": false,
+        "function": "S_VIN_2",
+        "pin_type": "power_out"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "J1702",
+    "design_value": "POWER_LOGIC_TEST_NOT_LOAD_CONNECTOR",
+    "footprint": "ModularConnectorMechanicalCandidate:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical_ConnectorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/7e5020c4-e7fa-5889-8a82-70ed6e15cc7c",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "POWER_EN",
+        "intentional_nc": false,
+        "function": "POWER_EN_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "M_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "M_EFUSE_EN_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "S_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "S_EFUSE_EN_4",
+        "pin_type": "passive"
+      },
+      {
+        "number": "5",
+        "net": "/Power/M_OVLO",
+        "intentional_nc": false,
+        "function": "M_OVLO_5",
+        "pin_type": "passive"
+      },
+      {
+        "number": "6",
+        "net": "/Power/S_OVLO",
+        "intentional_nc": false,
+        "function": "S_OVLO_6",
+        "pin_type": "passive"
+      },
+      {
+        "number": "7",
+        "net": "/Power/M_ILM",
+        "intentional_nc": false,
+        "function": "M_ILM_7",
+        "pin_type": "passive"
+      },
+      {
+        "number": "8",
+        "net": "/Power/S_ILM",
+        "intentional_nc": false,
+        "function": "S_ILM_8",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "Q1801",
+    "design_value": "MMBT3904-7-F",
+    "footprint": "ModularDiscreteMechanicalCandidate:Diodes_MMBT3904_SOT23_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/3b899866-77ae-528b-9158-42353f1a3e57",
+    "schematic_fields": {
+      "Datasheet": "https://www.diodes.com/datasheet/download/MMBT3904.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Discharge/M_DUMP_BASE",
+        "intentional_nc": false,
+        "function": "B_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "E_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Discharge/M_DUMP_LED_K",
+        "intentional_nc": false,
+        "function": "C_3",
+        "pin_type": "open_collector"
+      }
+    ]
+  },
+  {
+    "reference": "Q1821",
+    "design_value": "MMBT3904-7-F",
+    "footprint": "ModularDiscreteMechanicalCandidate:Diodes_MMBT3904_SOT23_DiscreteDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/2df28628-c37e-554a-b5a2-9309cafcfab5",
+    "schematic_fields": {
+      "Datasheet": "https://www.diodes.com/datasheet/download/MMBT3904.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Discharge/S_DUMP_BASE",
+        "intentional_nc": false,
+        "function": "B_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "E_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "/Discharge/S_DUMP_LED_K",
+        "intentional_nc": false,
+        "function": "C_3",
+        "pin_type": "open_collector"
+      }
+    ]
+  },
+  {
+    "reference": "R10",
+    "design_value": "10k_1pct_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/f7269c3c-221b-5f99-89c1-0e95074ae287",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/M_VIN_SENSE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R11",
+    "design_value": "107k_0p1pct_MOTOR_RAIL_UV",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/10ce0dc4-8cb4-5d86-98b3-f75eb574ce4a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_OUT_SENSE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R12",
+    "design_value": "10k_0p1pct_RAIL_DIVIDER",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/0a12d1a3-2782-5044-b933-8bca168f711f",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/M_OUT_SENSE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R13",
+    "design_value": "10k",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/8d300704-655b-5544-a1de-743891b5b935",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_SRC_OK",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R14",
+    "design_value": "10k",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/ca2eede0-a6d7-510f-9c21-3e16c18b3f12",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_OUT_BAD",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1401",
+    "design_value": "10k_STOP_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/54b70139-728b-5f30-8c02-d1045b3fb72f",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/STOP_OK",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1402",
+    "design_value": "100k_ARM_RAW_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/cef5ebb5-2be5-5502-ac07-777563fdb4af",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/ARM_RAW",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1403",
+    "design_value": "10k_ARM_RC_SERIES",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/487221c0-57c6-5a4c-91bb-0e4241de02a1",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/ARM_RAW",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Core/ARM_RC",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1404",
+    "design_value": "10k_POR_PULLUP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/8668d3d3-47fa-5c36-a69c-06bbcaa362de",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "POR_N",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1405",
+    "design_value": "10k_REQUEST_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/44849ea3-5f12-5735-b331-4f00830e7013",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1406",
+    "design_value": "10k_READY_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/f4607b00-5945-5039-b94a-2f26f5917914",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "MCU_READY",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1407",
+    "design_value": "100k_WDO_CABLE_OPEN_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/c90ea383-a277-527e-b3a4-50ca2ee8e11a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1408",
+    "design_value": "10k_BRANCH_PERMIT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/19783d2b-6eaf-5f20-a373-3273d995c7a6",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "BRANCH_PERMIT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1409",
+    "design_value": "10k_PG_CABLE_OPEN_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/d97fe49c-2f95-5514-b857-6420889b8e87",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "POWER_GOOD",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1410",
+    "design_value": "100k_ARMED_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/253733d8-b3ff-54df-ba44-41447bbc5cc0",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/HW_ARMED",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1411",
+    "design_value": "0R_OUTPUT_LINK_DEFAULT_DNP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": true,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/387a8aa1-d5b2-527f-affc-48b87154fb11",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/GATE_REQUEST",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GATE_ENABLE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1412",
+    "design_value": "10k_OUTPUT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/ab607450-1b3f-5481-b903-dd4e7cf886cd",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GATE_ENABLE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1601",
+    "design_value": "100k_1pct_LOAD_SIDE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/a584e279-fe4c-57a2-af47-e88ccaa10bc3",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/PAN_OUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1602",
+    "design_value": "100k_1pct_LOAD_SIDE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/a0fd9f38-404f-5a2c-9d8a-90415b95d16a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/TILT_OUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1603",
+    "design_value": "100k_1pct_LOAD_SIDE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/746ef7ea-8ce0-50e3-ac14-3197cbf58701",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/IN1_OUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1604",
+    "design_value": "100k_1pct_LOAD_SIDE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/5396534a-2f70-5582-a68c-c7c22dba64ce",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/IN2_OUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1605",
+    "design_value": "100k_1pct_LOAD_SIDE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/d54ae78e-5743-590d-a403-a55e6dae438c",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/PWM_OUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1606",
+    "design_value": "100k_1pct_LOAD_SIDE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/61dab82e-e70f-5c38-90f4-b66475d48ed6",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/STBY_OUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1611",
+    "design_value": "100k_1pct_INPUT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/2018e856-a5be-5e8f-99b7-dc1afcccd6fa",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/PAN_MCU",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1612",
+    "design_value": "100k_1pct_INPUT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/145f5eeb-65fe-51bd-9113-dccd05e26dff",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/TILT_MCU",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1613",
+    "design_value": "100k_1pct_INPUT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/95d099b4-c211-5f8a-8728-aad2ec29c7ac",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/IN1_MCU",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1614",
+    "design_value": "100k_1pct_INPUT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/637ea5c1-d069-566a-9202-8f7abe79e1b9",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/IN2_MCU",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1615",
+    "design_value": "100k_1pct_INPUT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/d3abf421-bfbe-5a7c-91d3-999cb7ddb004",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/PWM_MCU",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1620",
+    "design_value": "100k_1pct_OE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/338e91fd-2403-5158-9e8b-eee149814b02",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/SIGNAL_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1621",
+    "design_value": "10k_1pct_IO_RAIL_BLEED_NOT_DISCHARGE_GUARANTEE",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/31c1331e-1b0c-54aa-873f-f94fc2ff1aef",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1622",
+    "design_value": "68.1k_0p1pct_IO_UV",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/973eece6-d6eb-5807-9f6a-e1b8b6563f5c",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Signals/M_IO_SENSE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1623",
+    "design_value": "10k_0p1pct_IO_UV",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/7cf6e522-5c55-5594-98b9-19e785657e0b",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_SENSE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1624",
+    "design_value": "10k_1pct_MONITOR_PULLUP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/a4ec3ce4-d05a-5c80-88fb-1ac781c0139c",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Signals/M_IO_BAD",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1625",
+    "design_value": "100k_1pct_IO_OK_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/3a9eb8a0-4bd4-5c07-9f19-73ccaa120de3",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_OK",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1701",
+    "design_value": "0R_ENABLE_LINK_DEFAULT_DNP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": true,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/c2c120e4-ee01-502a-82a3-b0c6341d7984",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "POWER_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "M_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1702",
+    "design_value": "100k_1pct_EN_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/ef1dff9d-7bf4-5e93-8aac-a9c5c91e1f7c",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1703",
+    "design_value": "357k_0p1pct_OVLO_TOP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/7d2a78b3-a2d0-5a36-9855-e912ef528369",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VIN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Power/M_OVLO",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1704",
+    "design_value": "100k_0p1pct_OVLO_BOTTOM_A",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/1e65d14c-10b0-5c22-831f-bfff58437fd0",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/M_OVLO",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Power/M_OVLO_MID",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1705",
+    "design_value": "3.48k_0p1pct_OVLO_BOTTOM_B",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/be5063bb-ea7b-5656-8001-ecc5f6b319e7",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/M_OVLO_MID",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1706",
+    "design_value": "3.32k_0p1pct_BREAKER_NOT_CONTINUOUS_LIMIT",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/9427aa8a-600f-53c9-a97a-f0ef36c50257",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/M_ILM",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1707",
+    "design_value": "1k_1pct_0p25W_BLEED_NOT_SAFE_DISCHARGE_PROOF",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW1206_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/2bf4f3cb-8100-51a7-a742-93f95089ef20",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1721",
+    "design_value": "0R_ENABLE_LINK_DEFAULT_DNP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": true,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/1a95f7a4-b03f-5512-a037-1372a8398b11",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "POWER_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "S_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1722",
+    "design_value": "100k_1pct_EN_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/1dfa491b-6dbd-513d-a01c-a65c36187fa7",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1723",
+    "design_value": "357k_0p1pct_OVLO_TOP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/8e593482-4677-51ed-b641-da30df301b7b",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VIN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Power/S_OVLO",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1724",
+    "design_value": "100k_0p1pct_OVLO_BOTTOM_A",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/451877a6-7762-5ea2-a0d8-79fe5cff568f",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/S_OVLO",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Power/S_OVLO_MID",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1725",
+    "design_value": "3.48k_0p1pct_OVLO_BOTTOM_B",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/3d59c454-fb89-56e7-a4fa-5589331a0e23",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/S_OVLO_MID",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1726",
+    "design_value": "1.65k_0p1pct_BREAKER_NOT_CONTINUOUS_LIMIT",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/dbc11d18-79b5-537a-8b36-980c2c5b3623",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Power/S_ILM",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1727",
+    "design_value": "1k_1pct_0p25W_BLEED_NOT_SAFE_DISCHARGE_PROOF",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW1206_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/749cf69c-936f-5c70-a797-68bf70d38e01",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1801",
+    "design_value": "220R_1pct_0p125W_LED_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/98c550db-0923-5fa3-832b-d681e1300178",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/M_DUMP_LED_A",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1802",
+    "design_value": "680R_1pct_BASE_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/5e489364-1a38-5d0f-88c5-68e6841a868c",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/M_DUMP_BASE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1803",
+    "design_value": "100k_1pct_BASE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/6ffc4b05-ccdf-5465-8da0-c391d4ed60dd",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Discharge/M_DUMP_BASE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1804",
+    "design_value": "100R_1pct_1W_DISCHARGE_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW2512_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/bb459f75-f70b-55a7-8240-3c111d6cc0e9",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/M_DUMP_CONTACT",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1821",
+    "design_value": "220R_1pct_0p125W_LED_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/b44850e8-9bb9-572e-93b2-109690f7b9a0",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/S_DUMP_LED_A",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1822",
+    "design_value": "680R_1pct_BASE_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/93bf8fcd-60e9-5381-8ff6-74a4bae4b88e",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/S_DUMP_BASE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1823",
+    "design_value": "100k_1pct_BASE_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/842e79ff-3ed4-5e80-bba4-32089eeef99a",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Discharge/S_DUMP_BASE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1824",
+    "design_value": "100R_1pct_1W_DISCHARGE_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW2512_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/b8258056-5a8d-5c1a-9c00-c998c4ae6e99",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/S_DUMP_CONTACT",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1901",
+    "design_value": "10k_1pct_CWD_FIXED_TIMER",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/84310483-a143-5778-aa8b-4168516bda17",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Watchdog/WD_CWD",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1902",
+    "design_value": "10k_1pct_CRST_SHORT_PULSE",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/944d902a-05de-570e-b57e-9e20f0600803",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Watchdog/WD_CRST",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1903",
+    "design_value": "10k_1pct_WDO_PULLUP",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/c1a50f6c-d459-51c3-9f11-8a7b2084f4ce",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1904",
+    "design_value": "100k_1pct_WDI_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/f4d95327-81af-5584-995c-fd77e9dab4af",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Watchdog/WD_WDI",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R1905",
+    "design_value": "100k_1pct_HEARTBEAT_PULLDOWN",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/fc99db2e-3a53-591f-946d-84deef9a6866",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "MCU_HEARTBEAT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R201",
+    "design_value": "1M_1pct_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/ae9ffab1-e24a-5519-b557-65b25d7de0b6",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_BIAS_ANODE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R202",
+    "design_value": "1M_1pct_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/64177661-368f-5604-bcf1-e9669419bcf4",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_BIAS_ANODE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R23",
+    "design_value": "82k_1pct_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/fe9b4f76-abcf-5df4-9b6b-240ba160b317",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/S_VIN_ISO",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_VIN_SENSE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R24",
+    "design_value": "10k_1pct_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/5d486dde-4876-5d90-98c0-23fdbc664de8",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/S_VIN_SENSE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R25",
+    "design_value": "115k_0p1pct_SERVO_RAIL_UV",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/71dbeeaf-33ae-5797-baf5-438227631491",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_OUT_SENSE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R26",
+    "design_value": "10k_0p1pct_RAIL_DIVIDER",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_TNPW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/ff0f45e4-107d-5a2b-ba6a-b8b66b61bd97",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/S_OUT_SENSE",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R27",
+    "design_value": "10k",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/0be20a8a-ddad-5b41-961c-cc242fcae300",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_SRC_OK",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R28",
+    "design_value": "10k",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/170986e3-a067-5d2a-8a16-3e4fe020bc27",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_OUT_BAD",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R29",
+    "design_value": "100k_1pct_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/a7dddf05-13b1-5de5-81fc-b8517815be30",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/START_CT",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R31",
+    "design_value": "10k",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/ba6b02c2-bfb5-5e3c-b477-baf6d2f49108",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/START_EXPIRED",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "R9",
+    "design_value": "82k_1pct_REVIEW",
+    "footprint": "ModularResistorMechanicalCandidate:Vishay_CRCW0805_Reflow_ResistorDraft_AssemblyMarker",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/a2f377b8-c635-5153-b4ef-ffec00a03a90",
+    "schematic_fields": {
+      "Datasheet": "",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/M_VIN_ISO",
+        "intentional_nc": false,
+        "function": "1_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_VIN_SENSE",
+        "intentional_nc": false,
+        "function": "2_2",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "U1401",
+    "design_value": "SN74LVC1G11DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0006A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/9772f428-9830-5a92-a037-d58d18bcde18",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/STOP_OK",
+        "intentional_nc": false,
+        "function": "A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "POR_N",
+        "intentional_nc": false,
+        "function": "B_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Core/BASE_OK",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "MCU_READY",
+        "intentional_nc": false,
+        "function": "C_6",
+        "pin_type": "input"
+      }
+    ]
+  },
+  {
+    "reference": "U1402",
+    "design_value": "SN74LVC1G11DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0006A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/1a6c6ab4-9970-52c0-8d87-b33f6f929531",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/BASE_OK",
+        "intentional_nc": false,
+        "function": "A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "B_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Core/MASTER_CLEAR_N",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "BRANCH_PERMIT",
+        "intentional_nc": false,
+        "function": "C_6",
+        "pin_type": "input"
+      }
+    ]
+  },
+  {
+    "reference": "U1403",
+    "design_value": "SN74LVC1G74DCUR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DCU0008A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/be39f14c-149c-5ee4-b411-384ead6b2bbb",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/ARM_CLK",
+        "intentional_nc": false,
+        "function": "CLK_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "D_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "unconnected-(U1403-Q_N-Pad3)",
+        "intentional_nc": true,
+        "function": "Q_N_3",
+        "pin_type": "output+no_connect"
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_4",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "5",
+        "net": "/Core/HW_ARMED",
+        "intentional_nc": false,
+        "function": "Q_5",
+        "pin_type": "output"
+      },
+      {
+        "number": "6",
+        "net": "/Core/MASTER_CLEAR_N",
+        "intentional_nc": false,
+        "function": "CLR_N_6",
+        "pin_type": "input"
+      },
+      {
+        "number": "7",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "PRE_N_7",
+        "pin_type": "input"
+      },
+      {
+        "number": "8",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_8",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U1404",
+    "design_value": "SN74LVC1G11DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0006A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/4344d5b0-97db-5d0a-bfad-4ee7cf059e8f",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Core/HW_ARMED",
+        "intentional_nc": false,
+        "function": "A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "B_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Core/GATE_REQUEST",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "/Core/MASTER_CLEAR_N",
+        "intentional_nc": false,
+        "function": "C_6",
+        "pin_type": "input"
+      }
+    ]
+  },
+  {
+    "reference": "U1405",
+    "design_value": "SN74LVC1G17DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0005A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/0c8680f4-a7cc-5682-8fe6-415196646192",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "unconnected-(U1405-NC-Pad1)",
+        "intentional_nc": true,
+        "function": "NC_1",
+        "pin_type": "no_connect"
+      },
+      {
+        "number": "2",
+        "net": "/Core/ARM_RC",
+        "intentional_nc": false,
+        "function": "A_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "/Core/ARM_CLK",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U1406",
+    "design_value": "TPS3840DL30DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0005A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Core",
+    "schematic_path": "/4d859ccf-1350-555e-8144-8aa6305a6216/d967189c-830b-52f3-bc19-c172ec465656",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3840.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "POR_N",
+        "intentional_nc": false,
+        "function": "RESET_N_1",
+        "pin_type": "open_collector"
+      },
+      {
+        "number": "2",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VDD_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "MR_N_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Core/POR_CT",
+        "intentional_nc": false,
+        "function": "CT_5",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "U1601",
+    "design_value": "TXU0102DCUR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DCU0008A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/81b26b4f-ad88-5cc0-8147-717ae4ef262b",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/txu0102.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/TILT_OUT",
+        "intentional_nc": false,
+        "function": "B2Y_1",
+        "pin_type": "output"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCCA_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "/Signals/TILT_MCU",
+        "intentional_nc": false,
+        "function": "A2_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Signals/PAN_MCU",
+        "intentional_nc": false,
+        "function": "A1_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Signals/SIGNAL_EN",
+        "intentional_nc": false,
+        "function": "OE_6",
+        "pin_type": "input"
+      },
+      {
+        "number": "7",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "VCCB_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "/Signals/PAN_OUT",
+        "intentional_nc": false,
+        "function": "B1Y_8",
+        "pin_type": "output"
+      }
+    ]
+  },
+  {
+    "reference": "U1602",
+    "design_value": "TXU0102DCUR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DCU0008A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/13940be9-abf2-5670-931d-1f5c5927bef0",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/txu0102.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/IN2_OUT",
+        "intentional_nc": false,
+        "function": "B2Y_1",
+        "pin_type": "output"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCCA_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "/Signals/IN2_MCU",
+        "intentional_nc": false,
+        "function": "A2_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Signals/IN1_MCU",
+        "intentional_nc": false,
+        "function": "A1_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Signals/SIGNAL_EN",
+        "intentional_nc": false,
+        "function": "OE_6",
+        "pin_type": "input"
+      },
+      {
+        "number": "7",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "VCCB_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "/Signals/IN1_OUT",
+        "intentional_nc": false,
+        "function": "B1Y_8",
+        "pin_type": "output"
+      }
+    ]
+  },
+  {
+    "reference": "U1603",
+    "design_value": "TXU0102DCUR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DCU0008A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/55ba75ce-e90c-530e-b0b2-ed9a0f717bca",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/txu0102.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/STBY_OUT",
+        "intentional_nc": false,
+        "function": "B2Y_1",
+        "pin_type": "output"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCCA_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "A2_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Signals/PWM_MCU",
+        "intentional_nc": false,
+        "function": "A1_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Signals/SIGNAL_EN",
+        "intentional_nc": false,
+        "function": "OE_6",
+        "pin_type": "input"
+      },
+      {
+        "number": "7",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "VCCB_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "/Signals/PWM_OUT",
+        "intentional_nc": false,
+        "function": "B1Y_8",
+        "pin_type": "output"
+      }
+    ]
+  },
+  {
+    "reference": "U1604",
+    "design_value": "TPS70933DRVR",
+    "footprint": "ModularThermalCandidate:TI_DRV0006A_TPS709_SplitPaste_ThermalDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/d22fc07a-9a14-5549-a706-5d0f4ef15d86",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps709.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Signals/M_IO_3V3",
+        "intentional_nc": false,
+        "function": "OUT_1",
+        "pin_type": "power_out"
+      },
+      {
+        "number": "2",
+        "net": "unconnected-(U1604-NC-Pad2)",
+        "intentional_nc": true,
+        "function": "NC_2",
+        "pin_type": "no_connect"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "EN_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "unconnected-(U1604-NC-Pad5)",
+        "intentional_nc": true,
+        "function": "NC_5",
+        "pin_type": "no_connect"
+      },
+      {
+        "number": "6",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "IN_6",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "EP_7",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U1605",
+    "design_value": "TPS3700DDCR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DDC0006A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/409da256-cb02-5851-894e-d6e95333161d",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "unconnected-(U1605-OUTA-Pad1)",
+        "intentional_nc": true,
+        "function": "OUTA_1",
+        "pin_type": "open_collector+no_connect"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "INA+_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Signals/M_IO_SENSE",
+        "intentional_nc": false,
+        "function": "INB-_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VDD_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "/Signals/M_IO_BAD",
+        "intentional_nc": false,
+        "function": "OUTB_6",
+        "pin_type": "open_collector"
+      }
+    ]
+  },
+  {
+    "reference": "U1606",
+    "design_value": "SN74LVC1G04DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0005A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/4c4be123-6e4e-59dd-8138-843f9377ac59",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "unconnected-(U1606-NC-Pad1)",
+        "intentional_nc": true,
+        "function": "NC_1",
+        "pin_type": "no_connect"
+      },
+      {
+        "number": "2",
+        "net": "/Signals/M_IO_BAD",
+        "intentional_nc": false,
+        "function": "A_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "/Signals/M_IO_OK",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U1607",
+    "design_value": "SN74LVC1G08DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0005A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/a3fa66ec-192b-56fe-a8de-2ccde860b8be",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "LOAD_RAILS_GOOD",
+        "intentional_nc": false,
+        "function": "A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Signals/M_IO_OK",
+        "intentional_nc": false,
+        "function": "B_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "POWER_GOOD",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U1608",
+    "design_value": "SN74LVC1G08DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0005A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Signals",
+    "schematic_path": "/09ef7e53-1b77-5c8f-a118-3d7e36430423/c9acfa5c-263e-5c54-88e6-0b74acb671fb",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "SIGNAL_EN_PRE",
+        "intentional_nc": false,
+        "function": "A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Signals/M_IO_OK",
+        "intentional_nc": false,
+        "function": "B_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "/Signals/SIGNAL_EN",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U1701",
+    "design_value": "TPS259474LRPWR",
+    "footprint": "ModularPowerMechanicalCandidate:TI_RPW0010A_SplitPaste_ModularPowerDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/0b9c17b5-ca9a-5b1b-933f-5cba7a71e666",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "M_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "EN_UVLO_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Power/M_OVLO",
+        "intentional_nc": false,
+        "function": "OVLO_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "unconnected-(U1701-PG-Pad3)",
+        "intentional_nc": true,
+        "function": "PG_3",
+        "pin_type": "open_collector+no_connect"
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "PGTH_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "M_VIN",
+        "intentional_nc": false,
+        "function": "IN_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "M_VOUT",
+        "intentional_nc": false,
+        "function": "OUT_6",
+        "pin_type": "power_out"
+      },
+      {
+        "number": "7",
+        "net": "/Power/M_DVDT",
+        "intentional_nc": false,
+        "function": "DVDT_7",
+        "pin_type": "passive"
+      },
+      {
+        "number": "8",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_8",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "9",
+        "net": "/Power/M_ILM",
+        "intentional_nc": false,
+        "function": "ILM_9",
+        "pin_type": "passive"
+      },
+      {
+        "number": "10",
+        "net": "unconnected-(U1701-ITIMER-Pad10)",
+        "intentional_nc": true,
+        "function": "ITIMER_10",
+        "pin_type": "passive+no_connect"
+      }
+    ]
+  },
+  {
+    "reference": "U1721",
+    "design_value": "TPS259474LRPWR",
+    "footprint": "ModularPowerMechanicalCandidate:TI_RPW0010A_SplitPaste_ModularPowerDraft",
+    "default_dnp": false,
+    "section": "Power",
+    "schematic_path": "/5fdc402b-5b3a-5509-be1d-9508b42f6d46/c6b04ed4-442a-546a-925e-ddb7bde9071e",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "S_EFUSE_EN",
+        "intentional_nc": false,
+        "function": "EN_UVLO_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Power/S_OVLO",
+        "intentional_nc": false,
+        "function": "OVLO_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "unconnected-(U1721-PG-Pad3)",
+        "intentional_nc": true,
+        "function": "PG_3",
+        "pin_type": "open_collector+no_connect"
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "PGTH_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "S_VIN",
+        "intentional_nc": false,
+        "function": "IN_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "S_VOUT",
+        "intentional_nc": false,
+        "function": "OUT_6",
+        "pin_type": "power_out"
+      },
+      {
+        "number": "7",
+        "net": "/Power/S_DVDT",
+        "intentional_nc": false,
+        "function": "DVDT_7",
+        "pin_type": "passive"
+      },
+      {
+        "number": "8",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_8",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "9",
+        "net": "/Power/S_ILM",
+        "intentional_nc": false,
+        "function": "ILM_9",
+        "pin_type": "passive"
+      },
+      {
+        "number": "10",
+        "net": "unconnected-(U1721-ITIMER-Pad10)",
+        "intentional_nc": true,
+        "function": "ITIMER_10",
+        "pin_type": "passive+no_connect"
+      }
+    ]
+  },
+  {
+    "reference": "U1801",
+    "design_value": "AQY412EH_FORM_B_NORMALLY_CLOSED",
+    "footprint": "ModularPowerMechanicalCandidate:Panasonic_AQY412EH_DIP4_ModularPowerDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/e7d2486c-74e0-5f5c-b6da-56c590c9106f",
+    "schematic_fields": {
+      "Datasheet": "https://industry.panasonic.com/global/en/products/control/relay/photomos/number/aqy412eh",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Discharge/M_DUMP_LED_A",
+        "intentional_nc": false,
+        "function": "LED_A_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/M_DUMP_LED_K",
+        "intentional_nc": false,
+        "function": "LED_K_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "LOAD_3_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "/Discharge/M_DUMP_CONTACT",
+        "intentional_nc": false,
+        "function": "LOAD_4_4",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "U1821",
+    "design_value": "AQY412EH_FORM_B_NORMALLY_CLOSED",
+    "footprint": "ModularPowerMechanicalCandidate:Panasonic_AQY412EH_DIP4_ModularPowerDraft",
+    "default_dnp": false,
+    "section": "Discharge",
+    "schematic_path": "/14f6fcc3-a20f-5c9f-a936-10f302059410/a29fe832-5e1f-5813-8423-193f744069a3",
+    "schematic_fields": {
+      "Datasheet": "https://industry.panasonic.com/global/en/products/control/relay/photomos/number/aqy412eh",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Discharge/S_DUMP_LED_A",
+        "intentional_nc": false,
+        "function": "LED_A_1",
+        "pin_type": "passive"
+      },
+      {
+        "number": "2",
+        "net": "/Discharge/S_DUMP_LED_K",
+        "intentional_nc": false,
+        "function": "LED_K_2",
+        "pin_type": "passive"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "LOAD_3_3",
+        "pin_type": "passive"
+      },
+      {
+        "number": "4",
+        "net": "/Discharge/S_DUMP_CONTACT",
+        "intentional_nc": false,
+        "function": "LOAD_4_4",
+        "pin_type": "passive"
+      }
+    ]
+  },
+  {
+    "reference": "U1901",
+    "design_value": "TPS3430WDRCR",
+    "footprint": "WatchdogMechanicalCandidate:TI_DRC0010J_LogicalEP_WatchdogDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/fdcd9856-bf61-579f-bf71-348ff973b54a",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3430.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VDD1_1",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "2",
+        "net": "/Watchdog/WD_CWD",
+        "intentional_nc": false,
+        "function": "CWD_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "SET0_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Watchdog/WD_CRST",
+        "intentional_nc": false,
+        "function": "CRST_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "SET1_6",
+        "pin_type": "input"
+      },
+      {
+        "number": "7",
+        "net": "/Watchdog/WD_WDI",
+        "intentional_nc": false,
+        "function": "WDI_7",
+        "pin_type": "input"
+      },
+      {
+        "number": "8",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "WDO_N_8",
+        "pin_type": "open_collector"
+      },
+      {
+        "number": "9",
+        "net": "unconnected-(U1901-NC-Pad9)",
+        "intentional_nc": true,
+        "function": "NC_9",
+        "pin_type": "no_connect"
+      },
+      {
+        "number": "10",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VDD2_10",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "EP",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "THERMAL_PAD_EP",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U1902",
+    "design_value": "SN74LVC1G17DBVR",
+    "footprint": "WatchdogMechanicalCandidate:TI_DBV0005A_WatchdogDraft",
+    "default_dnp": false,
+    "section": "Watchdog",
+    "schematic_path": "/bbb35e33-585d-5e0d-9e3b-84bdc44e981e/9a4a1ad7-90f5-53e9-b5c0-b3bb562c568c",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "unconnected-(U1902-NC-Pad1)",
+        "intentional_nc": true,
+        "function": "NC_1",
+        "pin_type": "no_connect"
+      },
+      {
+        "number": "2",
+        "net": "MCU_HEARTBEAT",
+        "intentional_nc": false,
+        "function": "A_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_3",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "4",
+        "net": "/Watchdog/WD_WDI",
+        "intentional_nc": false,
+        "function": "Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_5",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U27",
+    "design_value": "TPS3808G01DBVR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DBV0006A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/99e4dcfd-8407-585a-8a43-f5342631334f",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/START_EXPIRED",
+        "intentional_nc": false,
+        "function": "~RESET_1",
+        "pin_type": "open_collector"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "POR_N",
+        "intentional_nc": false,
+        "function": "~MR_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/START_CT",
+        "intentional_nc": false,
+        "function": "CT_4",
+        "pin_type": "passive"
+      },
+      {
+        "number": "5",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "SENSE_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VDD_6",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U8",
+    "design_value": "TPS3700DDCR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DDC0006A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/fa09eada-2d9c-56f8-bc8c-a0cf004bb80b",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/M_SRC_OK",
+        "intentional_nc": false,
+        "function": "OUTA_1",
+        "pin_type": "open_collector"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/M_VIN_SENSE",
+        "intentional_nc": false,
+        "function": "INA+_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/M_OUT_SENSE",
+        "intentional_nc": false,
+        "function": "INB-_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VDD_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/M_OUT_BAD",
+        "intentional_nc": false,
+        "function": "OUTB_6",
+        "pin_type": "open_collector"
+      }
+    ]
+  },
+  {
+    "reference": "U800",
+    "design_value": "SN74LVC04ADR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_D0014A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/dcb23b26-a487-562a-8643-8aa960a14e3d",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc04a.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "POWER_GOOD",
+        "intentional_nc": false,
+        "function": "1A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/POWER_BAD",
+        "intentional_nc": false,
+        "function": "1Y_2",
+        "pin_type": "output"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/POWER_FAULT",
+        "intentional_nc": false,
+        "function": "2A_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/POWER_FAULT_N",
+        "intentional_nc": false,
+        "function": "2Y_4",
+        "pin_type": "output"
+      },
+      {
+        "number": "5",
+        "net": "/Branch/M_OUT_BAD",
+        "intentional_nc": false,
+        "function": "3A_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/M_OUT_OK",
+        "intentional_nc": false,
+        "function": "3Y_6",
+        "pin_type": "output"
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "/Branch/S_OUT_OK",
+        "intentional_nc": false,
+        "function": "4Y_8",
+        "pin_type": "output"
+      },
+      {
+        "number": "9",
+        "net": "/Branch/S_OUT_BAD",
+        "intentional_nc": false,
+        "function": "4A_9",
+        "pin_type": "input"
+      },
+      {
+        "number": "10",
+        "net": "/Branch/POWER_NOT_SEEN",
+        "intentional_nc": false,
+        "function": "5Y_10",
+        "pin_type": "output"
+      },
+      {
+        "number": "11",
+        "net": "/Branch/POWER_SEEN",
+        "intentional_nc": false,
+        "function": "5A_11",
+        "pin_type": "input"
+      },
+      {
+        "number": "12",
+        "net": "/Branch/WD_BAD",
+        "intentional_nc": false,
+        "function": "6Y_12",
+        "pin_type": "output"
+      },
+      {
+        "number": "13",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "6A_13",
+        "pin_type": "input"
+      },
+      {
+        "number": "14",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_14",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U801",
+    "design_value": "SN74LVC08ADR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_D0014A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/c652564e-4a84-53fb-b1c4-b95721bb27ad",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/M_PG_VALID",
+        "intentional_nc": false,
+        "function": "1A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/S_PG_VALID",
+        "intentional_nc": false,
+        "function": "1B_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "LOAD_RAILS_GOOD",
+        "intentional_nc": false,
+        "function": "1Y_3",
+        "pin_type": "output"
+      },
+      {
+        "number": "4",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "2A_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Branch/SEEN_SET",
+        "intentional_nc": false,
+        "function": "2B_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/POWER_SEEN",
+        "intentional_nc": false,
+        "function": "2Y_6",
+        "pin_type": "output"
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "/Branch/POWER_FAULT",
+        "intentional_nc": false,
+        "function": "3Y_8",
+        "pin_type": "output"
+      },
+      {
+        "number": "9",
+        "net": "/Branch/FAULT_RESET_N",
+        "intentional_nc": false,
+        "function": "3A_9",
+        "pin_type": "input"
+      },
+      {
+        "number": "10",
+        "net": "/Branch/FAULT_SET",
+        "intentional_nc": false,
+        "function": "3B_10",
+        "pin_type": "input"
+      },
+      {
+        "number": "11",
+        "net": "/Branch/FAULT_RESET_N",
+        "intentional_nc": false,
+        "function": "4Y_11",
+        "pin_type": "output"
+      },
+      {
+        "number": "12",
+        "net": "POR_N",
+        "intentional_nc": false,
+        "function": "4A_12",
+        "pin_type": "input"
+      },
+      {
+        "number": "13",
+        "net": "MCU_READY",
+        "intentional_nc": false,
+        "function": "4B_13",
+        "pin_type": "input"
+      },
+      {
+        "number": "14",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_14",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U802",
+    "design_value": "SN74LVC08ADR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_D0014A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/d2508294-ed32-5e49-ae42-cd8de47fbb2b",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "1A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "1B_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "unconnected-(U802-1Y-Pad3)",
+        "intentional_nc": true,
+        "function": "1Y_3",
+        "pin_type": "output+no_connect"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/M_SRC_OK",
+        "intentional_nc": false,
+        "function": "2A_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Branch/M_OUT_OK",
+        "intentional_nc": false,
+        "function": "2B_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/M_PG_VALID",
+        "intentional_nc": false,
+        "function": "2Y_6",
+        "pin_type": "output"
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "/Branch/S_PG_VALID",
+        "intentional_nc": false,
+        "function": "3Y_8",
+        "pin_type": "output"
+      },
+      {
+        "number": "9",
+        "net": "/Branch/S_SRC_OK",
+        "intentional_nc": false,
+        "function": "3A_9",
+        "pin_type": "input"
+      },
+      {
+        "number": "10",
+        "net": "/Branch/S_OUT_OK",
+        "intentional_nc": false,
+        "function": "3B_10",
+        "pin_type": "input"
+      },
+      {
+        "number": "11",
+        "net": "/Branch/WD_TRIP",
+        "intentional_nc": false,
+        "function": "4Y_11",
+        "pin_type": "output"
+      },
+      {
+        "number": "12",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "4A_12",
+        "pin_type": "input"
+      },
+      {
+        "number": "13",
+        "net": "/Branch/WD_BAD",
+        "intentional_nc": false,
+        "function": "4B_13",
+        "pin_type": "input"
+      },
+      {
+        "number": "14",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_14",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U804",
+    "design_value": "SN74LVC11ADR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_D0014A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/d7f24ee2-433a-5c09-90d5-81ed1ba2eeb7",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc11a.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GATE_ENABLE",
+        "intentional_nc": false,
+        "function": "1A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/M_PG_VALID",
+        "intentional_nc": false,
+        "function": "1B_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/POWER_SEEN",
+        "intentional_nc": false,
+        "function": "2A_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "2B_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Branch/POWER_BAD",
+        "intentional_nc": false,
+        "function": "2C_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/POWER_TRIP",
+        "intentional_nc": false,
+        "function": "2Y_6",
+        "pin_type": "output"
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "SIGNAL_EN_PRE",
+        "intentional_nc": false,
+        "function": "3Y_8",
+        "pin_type": "output"
+      },
+      {
+        "number": "9",
+        "net": "/Branch/SIGNAL_EN_RAW",
+        "intentional_nc": false,
+        "function": "3A_9",
+        "pin_type": "input"
+      },
+      {
+        "number": "10",
+        "net": "/Branch/POWER_FAULT_N",
+        "intentional_nc": false,
+        "function": "3B_10",
+        "pin_type": "input"
+      },
+      {
+        "number": "11",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "3C_11",
+        "pin_type": "input"
+      },
+      {
+        "number": "12",
+        "net": "/Branch/SIGNAL_EN_RAW",
+        "intentional_nc": false,
+        "function": "1Y_12",
+        "pin_type": "output"
+      },
+      {
+        "number": "13",
+        "net": "/Branch/S_PG_VALID",
+        "intentional_nc": false,
+        "function": "1C_13",
+        "pin_type": "input"
+      },
+      {
+        "number": "14",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_14",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U805",
+    "design_value": "SN74LVC11ADR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_D0014A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/a8f4a32e-602a-5a48-b0cb-eab487e512e4",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc11a.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "GATE_ENABLE",
+        "intentional_nc": false,
+        "function": "1A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "/Branch/POWER_FAULT_N",
+        "intentional_nc": false,
+        "function": "1B_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "ACT_EN",
+        "intentional_nc": false,
+        "function": "2A_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/START_EXPIRED",
+        "intentional_nc": false,
+        "function": "2B_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Branch/POWER_NOT_SEEN",
+        "intentional_nc": false,
+        "function": "2C_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/STARTUP_TRIP",
+        "intentional_nc": false,
+        "function": "2Y_6",
+        "pin_type": "output"
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "BRANCH_PERMIT",
+        "intentional_nc": false,
+        "function": "3Y_8",
+        "pin_type": "output"
+      },
+      {
+        "number": "9",
+        "net": "/Branch/M_SRC_OK",
+        "intentional_nc": false,
+        "function": "3A_9",
+        "pin_type": "input"
+      },
+      {
+        "number": "10",
+        "net": "/Branch/S_SRC_OK",
+        "intentional_nc": false,
+        "function": "3B_10",
+        "pin_type": "input"
+      },
+      {
+        "number": "11",
+        "net": "/Branch/POWER_FAULT_N",
+        "intentional_nc": false,
+        "function": "3C_11",
+        "pin_type": "input"
+      },
+      {
+        "number": "12",
+        "net": "POWER_EN",
+        "intentional_nc": false,
+        "function": "1Y_12",
+        "pin_type": "output"
+      },
+      {
+        "number": "13",
+        "net": "WD_OK",
+        "intentional_nc": false,
+        "function": "1C_13",
+        "pin_type": "input"
+      },
+      {
+        "number": "14",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_14",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U806",
+    "design_value": "SN74LVC32ADR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_D0014A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/20273c4d-0376-5722-ae47-2b474e503371",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc32a.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/POWER_SEEN",
+        "intentional_nc": false,
+        "function": "1A_1",
+        "pin_type": "input"
+      },
+      {
+        "number": "2",
+        "net": "POWER_GOOD",
+        "intentional_nc": false,
+        "function": "1B_2",
+        "pin_type": "input"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/SEEN_SET",
+        "intentional_nc": false,
+        "function": "1Y_3",
+        "pin_type": "output"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/POWER_FAULT",
+        "intentional_nc": false,
+        "function": "2A_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "/Branch/FAULT_REQUEST",
+        "intentional_nc": false,
+        "function": "2B_5",
+        "pin_type": "input"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/FAULT_SET",
+        "intentional_nc": false,
+        "function": "2Y_6",
+        "pin_type": "output"
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_7",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "8",
+        "net": "/Branch/RAIL_TRIP",
+        "intentional_nc": false,
+        "function": "3Y_8",
+        "pin_type": "output"
+      },
+      {
+        "number": "9",
+        "net": "/Branch/POWER_TRIP",
+        "intentional_nc": false,
+        "function": "3A_9",
+        "pin_type": "input"
+      },
+      {
+        "number": "10",
+        "net": "/Branch/STARTUP_TRIP",
+        "intentional_nc": false,
+        "function": "3B_10",
+        "pin_type": "input"
+      },
+      {
+        "number": "11",
+        "net": "/Branch/FAULT_REQUEST",
+        "intentional_nc": false,
+        "function": "4Y_11",
+        "pin_type": "output"
+      },
+      {
+        "number": "12",
+        "net": "/Branch/RAIL_TRIP",
+        "intentional_nc": false,
+        "function": "4A_12",
+        "pin_type": "input"
+      },
+      {
+        "number": "13",
+        "net": "/Branch/WD_TRIP",
+        "intentional_nc": false,
+        "function": "4B_13",
+        "pin_type": "input"
+      },
+      {
+        "number": "14",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VCC_14",
+        "pin_type": "power_in"
+      }
+    ]
+  },
+  {
+    "reference": "U9",
+    "design_value": "TPS3700DDCR",
+    "footprint": "ModularLogicMechanicalCandidate:TI_DDC0006A_ModularLogicDraft",
+    "default_dnp": false,
+    "section": "Branch",
+    "schematic_path": "/078098ea-0b7f-5c23-8406-e8a11e96c6e3/5d2f4ce3-9219-5c6e-919c-dcd95412b17c",
+    "schematic_fields": {
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "Description": ""
+    },
+    "pins": [
+      {
+        "number": "1",
+        "net": "/Branch/S_SRC_OK",
+        "intentional_nc": false,
+        "function": "OUTA_1",
+        "pin_type": "open_collector"
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "intentional_nc": false,
+        "function": "GND_2",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "3",
+        "net": "/Branch/S_VIN_SENSE",
+        "intentional_nc": false,
+        "function": "INA+_3",
+        "pin_type": "input"
+      },
+      {
+        "number": "4",
+        "net": "/Branch/S_OUT_SENSE",
+        "intentional_nc": false,
+        "function": "INB-_4",
+        "pin_type": "input"
+      },
+      {
+        "number": "5",
+        "net": "VLOGIC_3V3",
+        "intentional_nc": false,
+        "function": "VDD_5",
+        "pin_type": "power_in"
+      },
+      {
+        "number": "6",
+        "net": "/Branch/S_OUT_BAD",
+        "intentional_nc": false,
+        "function": "OUTB_6",
+        "pin_type": "open_collector"
+      }
+    ]
+  }
+]
