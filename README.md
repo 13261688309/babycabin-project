@@ -4,7 +4,6 @@
 
 | 成果 | 位置 |
 | --- | --- |
-| 结题报告、答辩 PPT、商业计划书、演示视频 | [closeout](closeout/) |
 | STM32H743 CubeIDE 工程与 F407 早期工程 | [H743](fetal-baby/) / [F407](firmware-f407/) |
 | GB01 台架快照、语音控制候选及模块源码 | [firmware-snapshots](firmware-snapshots/) / [firmware-candidates](firmware-candidates/) |
 | 四层 KiCad 原理图、PCB、封装库及询价材料 | [hardware](hardware/) |
